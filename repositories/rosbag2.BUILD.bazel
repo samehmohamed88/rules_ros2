@@ -26,6 +26,7 @@ ros2_cpp_library(
     includes = ["rosbag2_storage/include"],
     visibility = ["//visibility:public"],
     deps = [
+        "@ros2_rclcpp//:rclcpp",
         "@ros2_pluginlib//:pluginlib",
         "@ros2_rcpputils//:rcpputils",
         "@ros2_rcutils//:rcutils",
