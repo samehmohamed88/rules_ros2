@@ -308,7 +308,7 @@ def ros2_repositories_impl():
         patch_args = ["-p1"],
         patches = ["@com_github_mvukov_rules_ros2//repositories/patches:rosbag2_relax_plugin_errors.patch"],
         sha256 = "e60f5290033773d22154849808616dc51fe54c1e2eb05bf6cf1b493b5007bd31",
-        strip_prefix = "rosbag2-0.15.9",
+        strip_prefix = "rosbag2-0.25.0",
         url = "https://github.com/ros2/rosbag2/archive/refs/tags/0.25.0.tar.gz",
     )
 
