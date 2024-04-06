@@ -6,8 +6,8 @@ load("@rules_cc//cc:defs.bzl", "cc_library")
 cc_library(
     name = "mcap",
     hdrs = glob([
-        "include/**/*.hpp",
-        "include/**/*.inl",
+        "cpp/mcap/include/**/*.hpp",
+        "cpp/mcap/include/**/*.inl",
     ]),
     includes = ["include"],
     visibility = ["//visibility:public"],
