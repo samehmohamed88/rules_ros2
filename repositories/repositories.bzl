@@ -59,9 +59,9 @@ def ros2_workspace_repositories():
         http_archive,
         name = "pybind11",
         build_file = "@com_github_mvukov_rules_ros2//repositories:pybind11.BUILD.bazel",
-        sha256 = "d475978da0cdc2d43b73f30910786759d593a9d8ee05b1b6846d1eb16c6d2e0c",
-        strip_prefix = "pybind11-2.11.1",
-        urls = ["https://github.com/pybind/pybind11/archive/refs/tags/v2.11.1.tar.gz"],
+        sha256 = "bf8f242abd1abcd375d516a7067490fb71abd79519a282d22b6e4d19282185a7",
+        strip_prefix = "pybind11-2.12.0",
+        urls = ["https://github.com/pybind/pybind11/archive/refs/tags/v2.12.0.tar.gz"],
     )
 
     maybe(
@@ -140,9 +140,9 @@ def ros2_workspace_repositories():
     maybe(
         http_archive,
         name = "boringssl",
-        sha256 = "c7f695a7345a99e3c3585023306ce5110ae852efa87b18d07e3863ce3305880b",
-        strip_prefix = "boringssl-3e3039adab785b58447288c61cea6b658fbbb6cd",
-        urls = ["https://github.com/hedronvision/boringssl/archive/3e3039adab785b58447288c61cea6b658fbbb6cd.tar.gz"],
+        sha256 = "081917a10d15c3350be2bca4cdd4970f220570e341dbf7fa2f0c692baba53060",
+        strip_prefix = "boringssl-dfbc37faf149ec00fb2aeeb18645220f11894f98",
+        urls = ["https://github.com/hedronvision/boringssl/archive/dfbc37faf149ec00fb2aeeb18645220f11894f98.tar.gz"],
     )
 
     maybe(
@@ -180,9 +180,9 @@ def ros2_workspace_repositories():
         http_archive,
         name = "zstd",
         build_file = "@com_github_mvukov_rules_ros2//repositories:zstd.BUILD.bazel",
-        sha256 = "9c4396cc829cfae319a6e2615202e82aad41372073482fce286fac78646d3ee4",
-        strip_prefix = "zstd-1.5.5",
-        urls = ["https://github.com/facebook/zstd/releases/download/v1.5.5/zstd-1.5.5.tar.gz"],
+        sha256 = "8c29e06cf42aacc1eafc4077ae2ec6c6fcb96a626157e0593d5e82a34fd403c1",
+        strip_prefix = "zstd-1.5.6",
+        urls = ["https://github.com/facebook/zstd/releases/download/v1.5.6/zstd-1.5.6.tar.gz"],
     )
 
     maybe(
